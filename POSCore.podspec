@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   This purpose of this pod called pod-library is to maintain static & dynamic frameworks of imobile3 privately.
                        DESC
 
-  s.homepage         = 'https://github.com/iSpeakSwift/pod-library'
+  s.homepage         = 'https://phab.imobile3.local/source/posioslib/repository/master/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'blai' => 'blai@imobile3.com' }
-  s.source           = { :git => 'https://github.com/iSpeakSwift/pod-library.git', :tag => s.version.to_s }
+  s.source           = { :ssh => 'ssh://git@phab.imobile3.local/source/posiosmobile.git', :tag => s.version.to_s }
 
 
   s.ios.deployment_target = '10.0'
